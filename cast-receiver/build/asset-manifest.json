@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.1e293046.js",
-    "static/js/787.88509f4c.chunk.js": "/static/js/787.88509f4c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.1e293046.js.map": "/static/js/main.1e293046.js.map",
-    "787.88509f4c.chunk.js.map": "/static/js/787.88509f4c.chunk.js.map"
+    "main.css": "/tic-tac-toe-cast/cast-receiver/build/static/css/main.073c9b0a.css",
+    "main.js": "/tic-tac-toe-cast/cast-receiver/build/static/js/main.839f9500.js",
+    "static/js/787.88509f4c.chunk.js": "/tic-tac-toe-cast/cast-receiver/build/static/js/787.88509f4c.chunk.js",
+    "static/media/logo.svg": "/tic-tac-toe-cast/cast-receiver/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/tic-tac-toe-cast/cast-receiver/build/index.html",
+    "main.073c9b0a.css.map": "/tic-tac-toe-cast/cast-receiver/build/static/css/main.073c9b0a.css.map",
+    "main.839f9500.js.map": "/tic-tac-toe-cast/cast-receiver/build/static/js/main.839f9500.js.map",
+    "787.88509f4c.chunk.js.map": "/tic-tac-toe-cast/cast-receiver/build/static/js/787.88509f4c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.1e293046.js"
+    "static/js/main.839f9500.js"
   ]
 }
