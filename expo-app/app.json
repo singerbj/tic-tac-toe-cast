@@ -17,16 +17,27 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "tic.tac.toe.cast"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "tic.tac.toe.cast"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "@config-plugins/react-native-google-cast", 
+        { 
+          "androidReceiverAppId": "44CD7E9C",
+          "iosReceiverAppId": "44CD7E9C" 
+        }
+      ]
+    ]
   }
 }

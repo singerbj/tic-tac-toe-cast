@@ -1,0 +1,14 @@
+{
+  "timeline": [
+    {
+      "time": 5520,
+      "ipcMessage": "{\"data\":\"{\\\"type\\\":\\\"visibilitychanged\\\"}\",\"namespace\":\"urn:x-cast:com.google.cast.system\",\"senderId\":\"SystemSender\"}"
+    }, {
+      "time": 5538,
+      "ipcMessage": "{\"data\":\"{\\\"type\\\":\\\"standbychanged\\\"}\",\"namespace\":\"urn:x-cast:com.google.cast.system\",\"senderId\":\"SystemSender\"}"
+    }, {
+      "time": 5926,
+      "ipcMessage": "{\"data\":\"{\\\"requestId\\\":1,\\\"type\\\":\\\"GET_STATUS\\\"}\"}"
+    }
+  ]
+}
