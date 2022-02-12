@@ -1,4 +1,4 @@
-rootProject.name = 'tic-tac-toe-cast'
+rootProject.name = 'expo-app-better'
 
 apply from: new File(["node", "--print", "require.resolve('expo/package.json')"].execute(null, rootDir).text.trim(), "../scripts/autolinking.gradle");
 useExpoModules()

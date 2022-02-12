@@ -1,26 +1,31 @@
 {
-  "name": "tic-tac-toe-cast",
-  "version": "1.0.0",
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
+    "web": "expo start --web"
   },
   "dependencies": {
     "@config-plugins/react-native-google-cast": "^0.1.0",
-    "expo": "~44.0.0",
+    "expo": "^44.0.3",
+    "expo-dev-client": "~0.8.0",
+    "expo-secure-store": "^11.1.1",
+    "expo-splash-screen": "~0.14.1",
     "expo-status-bar": "~1.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
+    "react-native-get-random-values": "^1.7.2",
     "react-native-google-cast": "^4.1.2",
+    "react-native-peerjs": "^1.0.4",
     "react-native-web": "0.17.1",
-    "expo-splash-screen": "~0.14.1"
+    "react-native-webrtc": "^1.94.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "@config-plugins/react-native-webrtc": "^2.0.1"
   },
+  "name": "expo-app-better",
+  "version": "1.0.0",
   "private": true
 }

@@ -1,43 +1,31 @@
 {
   "expo": {
-    "name": "tic-tac-toe-cast",
-    "slug": "tic-tac-toe-cast",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "tic.tac.toe.cast"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      },
-      "package": "tic.tac.toe.cast"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "plugins": [
+      "@config-plugins/react-native-webrtc",
       [
-        "@config-plugins/react-native-google-cast", 
-        { 
+        "@config-plugins/react-native-google-cast",
+        {
           "androidReceiverAppId": "44CD7E9C",
-          "iosReceiverAppId": "44CD7E9C" 
+          "iosReceiverAppId": "44CD7E9C"
         }
       ]
-    ]
+    ],
+    "android": {
+      "permissions": [
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.BLUETOOTH",
+        "android.permission.CAMERA",
+        "android.permission.INTERNET",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.WAKE_LOCK"
+      ],
+      "package": "com.singerbj.expoappbetter"
+    },
+    "ios": {
+      "bitcode": false,
+      "bundleIdentifier": "tic.tac.toe.cast"
+    }
   }
 }
