@@ -23,6 +23,7 @@ const makeid = (length) => {
 };
 
 const ticTacToeSquareStyle = { display: "inline-block", width: 100, height: 100, backgroundColor: "#ccc", border: "3px solid #fff"};
+const infoStyle = { backgroundColor: '#eee', color: '#222'}
 
 const App = () => {
   const [hostId, setHostId] = useState();
@@ -195,7 +196,7 @@ const App = () => {
 
   return (
     <>
-      <div>
+      <div style={infoStyle}>
         Host Id: {hostId}
         <br />
         Game State: {gameState}

@@ -44,10 +44,10 @@ function App() {
 
   const connect = () => {
     const peer = new Peer(undefined, {
-      secure: false,
-      host: '192.168.181.233',
-      port: 9000,
-      path: '/myapp', 
+      // secure: false,
+      // host: '192.168.181.233',
+      // port: 9000,
+      // path: '/myapp', 
       debug: 3
     });
     peer.on('error', (error) => {
