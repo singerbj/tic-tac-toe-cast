@@ -39,9 +39,9 @@ const App = () => {
   useEffect(() => {
     var serverId = makeid(6);
     var peer = new Peer(serverId, { 
-      host: 'localhost',
-      port: 9000,
-      path: '/myapp', 
+      // host: 'localhost',
+      // port: 9000,
+      // path: '/myapp', 
       debug: 3
     });
 
